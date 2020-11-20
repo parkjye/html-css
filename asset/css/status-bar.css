@@ -1,0 +1,31 @@
+.status-bar{
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+}
+
+.status-bar__column{
+    width: 33%;
+}
+
+/* (No service icon-Wifi) Style */
+.status-bar__column:first-child span{
+    margin-right: 5px;
+}
+
+/* 시간(18:43) 가운데 정렬 */
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+/* (110 icon-Battery icon-Bolt) 우측상단 */
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+	align-items: center;
+}
+
+.status-bar__column .fa-battery-full{
+    margin: 0px 5px;
+}
