@@ -122,3 +122,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* 모든 input요소에 포커스를 줬을 때 아웃라인이 생기지 않게 한다. */
+input:focus{
+  outline: none;
+}
