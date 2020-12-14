@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kokoa Clone</title>
 </head>
 
@@ -18,11 +18,11 @@
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110</span>
+            <span>110%</span>
             <i class="fas fa-battery-full fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
-    </div><!-- "status-bar"-->
+    </div>
 
     <header class="screen-header">
         <h1 class="screen-header__title">Chats</h1>
@@ -35,40 +35,42 @@
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars3.githubusercontent.com/u/3612017" alt=""
-                    class="user-component__avatar user-component__avatar" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Nicolas</h4>
-                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://avatars3.githubusercontent.com/u/3612017"
+                        class="user-component__avatar user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Nicolas</h4>
+                        <h6 class="user-component__subtitle">
+                            Please check My Kokoa Account Info
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
                 </div>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
-            </div>
-        </div><!-- main-screen -->
+        </a>
     </main>
 
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
-
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+            </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
                     <i class="fas fa-comment fa-2x"></i>
                 </a>
             </li>
-
-            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-
             <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__notification_second"></span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                </a>
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
             </li>
         </ul>
     </nav>
