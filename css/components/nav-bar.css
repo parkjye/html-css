@@ -1,58 +1,47 @@
-.nav{
-    /* nav bar를 아래로 고정 */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.nav {
+  /* nav bar를 아래로 고정 */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
-    background-color: #f9f9fa;
-    padding: 20px 50px;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
 
-    /* box-size를 변경하지 않도록 한다. */
-    box-sizing: border-box;
+  /* box-size를 변경하지 않도록 한다. */
+  box-sizing: border-box;
 
-    border-top: 1px solid rgba(121, 121, 121, 0.3);
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
-.nav__list{
-    display: flex;
-    justify-content: space-between;
+.nav__list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav__link{
-    /* .nav__notification > position: absolute; */
-    position: relative;
-    color: #2e363e;
+.nav__link {
+  /* .nav__notification > position: absolute; */
+  position: relative;
+  color: #2e363e;
 }
 
-.nav__notification{
-    background-color: tomato;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%; /* 또는 width의 절반값을 작성하면 된다. */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 500;
-
-    position: absolute;
-    left: 20px;
-    bottom: 15px;
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
 }
 
-.nav__notification_second{
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
+.nav__notification_second {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
 
-    position: absolute;
-    right: -10px;
+  position: absolute;
+  right: -10px;
 }
