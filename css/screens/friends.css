@@ -32,3 +32,31 @@
   justify-content: space-between;
   color: var(--gray);
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /* 마우스에 걸리지 않게 숨긴다. */
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+
+  /* forwards: 마지막 키프레임을 기억한다. */
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s; /* 1초후에 애니메이션이 사라진다. */
+}
